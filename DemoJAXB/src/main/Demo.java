@@ -23,6 +23,11 @@ public class Demo {
 
 	}
 
+	/**
+	 * Unmarshalling
+	 * 
+	 * @throws JAXBException
+	 */
 	public static void demoUnmarshall() throws JAXBException {
 		JAXBContext context = JAXBContext.newInstance(ObjectFactory.class);
 
@@ -42,6 +47,11 @@ public class Demo {
 		}
 	}
 
+	/**
+	 * Marshalling
+	 * 
+	 * @throws JAXBException
+	 */
 	public static void demoMarshall() throws JAXBException {
 		JAXBContext context = JAXBContext.newInstance(ObjectFactory.class);
 		Root racine = new Root();
